@@ -1,0 +1,14 @@
+wordpress-seo
+duplicate-page
+redirection
+svg-support
+sassy-social-share
+regenerate-thumbnails
+simple-taxonomy-ordering
+simple-history
+acf-extended
+acf-to-rest-api
+post-types-order
+post-2-post-for-acf
+remove-dashboard-access-for-non-admins
+user-role-editor

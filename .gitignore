@@ -1,0 +1,59 @@
+#general packages
+node_modules/
+
+#sql
+sql
+
+#src builds
+src/elevate-open-house/css/
+src/elevate-open-house/js/
+
+#wordpress folders
+public/robots.txt
+public/wp-admin
+public/wp-content/mu-plugins/
+public/wp-content/plugins/
+public/wp-content/themes/twentytwenty/
+public/wp-content/themes/twentynineteen/
+public/wp-content/themes/twentyseventeen/
+public/wp-content/themes/twentysixteen/
+public/wp-content/themes/index.php
+public/wp-content/upgrade/
+public/wp-content/uploads/
+public/wp-includes/
+public/wp-content/*.php
+public/*.php
+
+#theme dist
+public/wp-content/themes/elevate-open-house/css/
+public/wp-content/themes/elevate-open-house/js/
+
+#local adminer ignore
+public/local-adminer-*.php
+
+#wordpress core files
+public/index.php
+public/license.txt
+public/readme.html
+public/wp-activate.php
+public/wp-blog-header.php
+public/wp-comments-post.php
+public/wp-config-sample.php
+public/wp-config.php
+public/wp-cron.php
+public/wp-links-opml.php
+public/wp-load.php
+public/wp-login.php
+public/wp-mail.php
+public/wp-settings.php
+public/wp-signup.php
+public/wp-trackback.php
+public/xmlrpc.php
+public/wp-content/languages/themes/twentynineteen-fr_FR.mo
+public/wp-content/languages/themes/twentynineteen-fr_FR.po
+public/wp-content/languages/themes/twentyseventeen-fr_FR.mo
+public/wp-content/languages/themes/twentyseventeen-fr_FR.po
+public/wp-content/languages/themes/twentysixteen-fr_FR.mo
+public/wp-content/languages/themes/twentysixteen-fr_FR.po
+public/wp-content/languages/themes/twentytwenty-fr_FR.mo
+public/wp-content/languages/themes/twentytwenty-fr_FR.po
