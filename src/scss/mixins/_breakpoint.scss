@@ -1,0 +1,29 @@
+  
+@mixin breakpoint($point, $dir:true) {
+    @if $point == large-desktop {
+      @media (min-width: 1440px) { @content ; }
+  }
+    @if $point == desktop {
+      @media (min-width: 1200px) { @content ; }
+   }
+    @else if $point == laptop {
+      @media (min-width: 992px) { @content ; }
+   }
+     @else if $point == tablet {
+      @media (min-width: 768px) { @content ; }
+   }
+    @else if $point == phablet {
+      @media (min-width: 576px)  { @content ; }
+   }
+   @else if $point == mobileonly {
+      @media (min-width: 360px)  { @content ; }
+    }
+  @else {
+      @if $dir == false {
+        @media (max-width: $point) { @content ; }
+      }
+      @else {
+        @media (min-width: $point) { @content ; }
+      }
+  }
+}   

@@ -1,0 +1,19 @@
+//Imported Bootstrap components
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import 'overrides/bootstrap';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+@import "~bootstrap/scss/utilities";
+
+//Common utilities classes
+@import 'scss/utilities/standard';
+
+//Hamburger menu
+@import 'scss/overrides/hamburgers';
+@import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+
+@import 'global/global';
+@import 'global/header';
+@import 'global/footer';
