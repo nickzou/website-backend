@@ -1,7 +1,7 @@
 <?php
 
     function theme_setup() {
-        register_nav_menu(
+        register_nav_menus(
             [
                 'header' => __('Header')
             ]
