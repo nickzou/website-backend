@@ -8,10 +8,10 @@
 @import "~bootstrap/scss/utilities";
 
 //Common utilities classes
-@import 'scss/utilities/standard';
+@import 'utilities/standard';
 
 //Hamburger menu
-@import 'scss/overrides/hamburgers';
+@import 'overrides/hamburgers';
 @import '~hamburgers/_sass/hamburgers/hamburgers.scss';
 
 @import 'global/global';
