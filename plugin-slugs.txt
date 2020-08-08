@@ -12,4 +12,3 @@ post-types-order
 post-2-post-for-acf
 remove-dashboard-access-for-non-admins
 user-role-editor
-timber-library

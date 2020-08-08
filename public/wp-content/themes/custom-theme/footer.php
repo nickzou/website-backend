@@ -1,4 +1,4 @@
-                <footer class="container">
+                <footer>
                     this is a footer
                 </footer>
         </body>
