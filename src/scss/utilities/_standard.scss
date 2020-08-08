@@ -2,11 +2,11 @@
 @import '~sass-rem';
 
 //Mixins
-@import 'mixins/breakpoint';
-@import 'mixins/linear-gradient';
+@import '../mixins/breakpoint';
+@import '../mixins/linear-gradient';
 
 //Theme Variabls and placeholder selectors
-@import 'variables/variables';
-@import 'variables/colors';
-@import 'placeholders/placeholders';
-@import 'placeholders/typography';
+@import '../variables/variables';
+@import '../variables/colors';
+@import '../placeholders/placeholders';
+@import '../placeholders/typography';

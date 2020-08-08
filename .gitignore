@@ -1,12 +1,11 @@
-#general packages
+#OS
+.DS_Store
+
+#node packages
 node_modules/
 
 #sql
 sql
-
-#src builds
-src/elevate-open-house/css/
-src/elevate-open-house/js/
 
 #wordpress folders
 public/robots.txt
@@ -23,10 +22,11 @@ public/wp-content/uploads/
 public/wp-includes/
 public/wp-content/*.php
 public/*.php
+public/.htaccess
 
 #theme dist
-public/wp-content/themes/elevate-open-house/css/
-public/wp-content/themes/elevate-open-house/js/
+public/wp-content/themes/brand-portal/css/
+public/wp-content/themes/brand-portal/js/
 
 #local adminer ignore
 public/local-adminer-*.php
