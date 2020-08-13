@@ -22,7 +22,7 @@ mix.js(`src/js/app.js`, `${public}/themes/${theme}/js/app.js`)
     processCssUrls: false
 })
 .sass(`src/scss/styles.scss`, `${public}/themes/${theme}/css/styles.css`)
-.sourceMaps()
+.sourceMaps(true, 'inline-source-map')
 .polyfill({
     enabled: true,
     useBuiltIns: "usage",
