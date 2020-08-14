@@ -1,5 +1,8 @@
 #general packages
 node_modules/
+vendor/
+
+.env
 
 #sql
 sql
