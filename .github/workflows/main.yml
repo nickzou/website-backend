@@ -35,4 +35,5 @@ jobs:
           port: 22
           source: "public/wp-content/themes/nickzou/*"
           target: "/var/www/html/wp-content/themes/nickzou/"
+          strip_components: 4
 
