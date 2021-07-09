@@ -28,10 +28,11 @@ jobs:
       - name: SCP Command to Transfer Files
         uses: appleboy/scp-action@v0.1.1
         with:
-          host: wp.nickzou.com
-          username: foo
-          password: bar
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+    +     passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: 22
-          source: "tests/a.txt,tests/b.txt"
-          target: "test"
+          source: "public/themes/nickzou/"
+          target: "/"
 
