@@ -34,5 +34,5 @@ jobs:
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: 22
           source: "public/wp-content/themes/nickzou/"
-          target: "/"
+          target: "/var/www/html/wp-content/themes/nickzou/"
 
