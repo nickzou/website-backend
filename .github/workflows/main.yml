@@ -33,6 +33,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: 22
-          source: "public/wp-content/themes/nickzou/"
+          source: "public/wp-content/themes/nickzou/*"
           target: "/var/www/html/wp-content/themes/nickzou/"
 
